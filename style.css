@@ -170,7 +170,7 @@ body {
 	font-weight: 600;
 }
 
-.is-invalid-icon {
+#myCard .is-invalid-icon {
 	border: 1px solid rgba(250, 10, 10, 0.5);
 	background-image: url(images/icon-error.svg);
 	background-repeat: no-repeat;
@@ -178,12 +178,12 @@ body {
 	background-size: 1rem;
 }
 
-.is-invalid-text {
-	visibility: visible!important;
+#myCard .is-invalid-text {
+	visibility: visible;
 }
 
-.is-invalid-email {
-	color: rgba(250, 10, 10, 0.5)!important;
+#myCard .is-invalid-email {
+	color: rgba(250, 10, 10, 0.5);
 }
 
 @media screen and (min-width:1200px) {
